@@ -1,0 +1,18 @@
+current directory: /home/koba/projects/follow-app-rails7/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/koba/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/koba/projects/follow-app-rails7/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250821-811906-8vwv45 sitelibdir\=./.gem.20250821-811906-8vwv45 clean
+
+current directory: /home/koba/projects/follow-app-rails7/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250821-811906-8vwv45 sitelibdir\=./.gem.20250821-811906-8vwv45
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/koba/projects/follow-app-rails7/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250821-811906-8vwv45 sitelibdir\=./.gem.20250821-811906-8vwv45 install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20250821-811906-8vwv45/bootsnap
+
+current directory: /home/koba/projects/follow-app-rails7/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250821-811906-8vwv45 sitelibdir\=./.gem.20250821-811906-8vwv45 clean
