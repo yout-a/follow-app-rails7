@@ -11,8 +11,8 @@ class User < ApplicationRecord
            class_name:  "Relationship",
            foreign_key: :following_id, dependent: :destroy
 
-  has_many :followings, through: :active_relationships,  source: :following
-  has_many :followers,  through: :passive_relationships, source: :follower
+  has_many :followings, through: :active_relationships,  source: :follower
+  has_many :followers,  through: :passive_relationships, source: :following
 
   # 自分(current_user)が other をフォローしている？
   def following?(other)

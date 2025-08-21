@@ -8,5 +8,13 @@
         <%=link_to "フォローする", user_relationships_path(@user.id),class: "btn", data: { turbo_method: :post } %>
       <% end %>
     <% end %>
+    <h3>フォロー</h3>
+    <% @user.followings.each do |user| %>
+      <p class=“f-user”><%= link_to user.name, user_path(user.id) %></p>
+    <% end %>
+    <h3>フォロワー</h3>
+    <% @user.followers.each do |user| %>
+      <p class=“f-user”><%= link_to user.name, user_path(user.id) %></p>
+    <% end %>
   </div>
 </div>
